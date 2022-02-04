@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Rica Volunteering!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="styles.css" rel = "stylesheet">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col-4">
+            <div class="img-div-sm">
+                <img src = "images/volunteering.jpg" alt = "Volunteer Workers">
+            </div>
+        </div>
+        <div class="col-8" style = "padding-right: 0px;">
+            <div class="info-block-lg">
+                <p>Join us on an all paid for experience helping build schools in rural parts of Costa Rica.
+                    Help us, in bringing education to much needed areas, and experience a once in a lifetime event! 
+                </p>
+                <p>
+                    "In the joy of others, lies our own"
+                </p>
+            </div>
+            <div id="error" class="form-container">
+            <form action="/" method="GET" class="row g-3">
+                <h1 style = "padding-left: 20px">Let's get started!</h1>
+                <div class="col-md-5">
+                  <label for="inputFirstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="inputFirstName">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputLastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="inputLastName">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="@yahoo.com">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputPhone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="inputPhone" placeholder="999-999-999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputPassword" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputPassword" class="form-label">Confirm Password</label>
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <button type="submit" class="btn btn-success">Create Account</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+              <div class="filler-block-lg">
+                <div>
+                    <p>Already have an account? Log in</p>
+                </div>
+            </div>
+        </div>
+        </div> 
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+</body>
+</html>
