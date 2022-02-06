@@ -44,3 +44,35 @@ body{
     padding-top: 20px;
     padding-left: 20px;
 }
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777
+}
+
+.form-control.success {
+	border-color: #2ecc71;
+    box-sizing: inherit;
+}
+
+.form-control.error {
+    box-sizing: inherit;
+	border-color: #e74c3c;
+}
+
+.small-control.error {
+	visibility: unset;
+    position: inherit;
+    color: #e74c3c;
+}
+
+.small-control.success {
+	visibility: hidden;
+}
+
+.small-control{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
